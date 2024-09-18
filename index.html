@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <!-- start roboto flex font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+        <!-- end roboto flex font -->
+        <title>Cindy Zhao</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- start nav -->
+        <navbar id="navbar">
+            <div class="navbar-container">
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-link" id="nav-about" href="#welcome-section">about</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" id="nav-projects" href="projects.html">projects</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" id="nav-contact" href="#contact">contact</a>
+                    </li>
+                    <li>
+                        <a class="btn">
+                            <img id="toggle" src="images/night-icon.png" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="scroll-progress-bar"></div>
+            </div>
+        </navbar>
+        <!-- end nav -->
+        <!-- start welcome -->
+        <section id="welcome-section">
+            <div id="welcome-blurb">
+                <h1 id="name">Cindy Zhao</h1>
+                <p class="intro">Hello! I'm a third-year computer science undergraduate at <a class="text-links" href="https://www.cs.ucsb.edu/">UC Santa Barbara</a>. I'm broadly interested in <span class="bold">responsible AI</span> and applications of <span class="bold">AI for social good.</span></p>
+            </div>
+            <div id="welcome-image">
+                <img id="pfp" src="images/pfp.png" alt="profile illustration"/>
+            </div>
+        </section>
+        <!-- end welcome -->
+        <!-- start contact -->
+        <section id="contact">
+            <div class="contact-blurb">
+                <p>Previously, I've studied knot theory invariants and basic hyperbolic geometry through <a class="text-links" href="https://www.ucsbdrp.org/">UCSB DRP</a>. I also researched the effect of cognitive learning style at <a class="text-links" href="https://www.foothill.edu/">Foothill College</a>. Currently, I'm learning the basics of web development (hence this page!) and machine learning.</p>
+                <p>In my free time, I like to read, take photos, and cook.</p>
+                <p>If any of my interests align with yours, feel free to reach out!</p>
+            </div>
+            <div id="contact-links">
+                <a id="profile-link" href="https://github.com/cinstar/" target="_blank" class="btn contact-details">
+                    <img src="images/github_logo.png" alt="github logo" />
+                </a>
+                <a href="https://www.linkedin.com/in/cindyxzhao/" target="_blank" class="btn contact-details">
+                    <img src="images/linkedin_icon_2.png" alt="LinkedIn logo" />
+                </a>
+                <a href="mailto:xintongzhao@ucsb.edu" class="btn contact-details">
+                    <img src="images/email_button_2.png" alt="button with mail logo" />
+                </a>
+            </div>
+        </section>
+        <!-- end contact -->
+        <!-- start footer -->
+        <footer>
+            <div class="made-with-love">
+                <p>Made with 🩵 by Cindy.</p>
+            </div>
+            <div class="copyright">
+                <p>© 2024 cinstar</p>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </body>
+</html>
